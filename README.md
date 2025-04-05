@@ -1,5 +1,9 @@
 # NEXTJS 15 + TypeScript + TailwindCSS + Shadcn UI
 
+# Link preview: https://4tek-test-eight.vercel.app/
+
+# How to install & run project
+
 1. **Install dependencies:**
    Make sure you have Node.js installed. Then run:
 
