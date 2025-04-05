@@ -11,3 +11,17 @@
    ```bash
    npm run dev
    ```
+
+# Capture website's images
+
+1. Desktop view (English)
+   ![screenshot](./public/capture/1.png)
+
+2. Desktop view (Vietnamese)
+   ![screenshot](./public/capture/2.png)
+
+3. Mobile menu (Iphone 14 Pro Max)
+   ![screenshot](./public/capture/3.png)
+
+4. Mobile view (Iphone 14 Pro Max)
+   ![screenshot](./public/capture/4.png)
