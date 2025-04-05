@@ -116,7 +116,7 @@ export default function AboutUs({ dict }: DictionaryData) {
         </div>
       </div>
       <div className='mt-[68px] relative max-lg:mt-10'>
-        <div className='flex justify-center animate-wiggle animate-infinite animate-duration-[2000ms] animate-delay-1000 z-[1] max-lg:pl-[37px] max-lg:pr-[38px]'>
+        <div className='flex justify-center animate-wiggle animate-infinite animate-duration-[2000ms] animate-delay-1000 z-[1] max-lg:max-w-[90%] max-lg:mx-auto'>
           <Image src={Witch} alt='witch' width={533} height={437} />
         </div>
         <Image
