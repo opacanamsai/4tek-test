@@ -1,0 +1,20 @@
+.hero-section {
+  background: url('../public/images/background.jpg') no-repeat center;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) -25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.box-countdown {
+  font-family: 'Playfair Display', 'serif' !important;
+}
+
+.slick-arrow {
+  width: 40px;
+  height: 40px;
+}
