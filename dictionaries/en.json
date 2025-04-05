@@ -1,4 +1,8 @@
 {
+  "home": {
+    "title": "Home",
+    "description": "Home"
+  },
   "navigation": {
     "about_us": "about us",
     "games": "games",
