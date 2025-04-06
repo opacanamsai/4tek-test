@@ -15,7 +15,7 @@ export default function Footer({ dict }: DictionaryData) {
               alt='logo'
               width={163}
               height={96}
-              priority
+              loading='lazy'
             />
             <ul className='flex gap-6'>
               <li>
@@ -25,8 +25,8 @@ export default function Footer({ dict }: DictionaryData) {
                     alt='twitter icon'
                     width={32}
                     height={32}
-                    priority
                     className='h-8 max-lg:w-10 max-lg:h-10'
+                    loading='lazy'
                   />
                 </Link>
               </li>
@@ -37,7 +37,7 @@ export default function Footer({ dict }: DictionaryData) {
                     alt='fb icon'
                     width={32}
                     height={32}
-                    priority
+                    loading='lazy'
                     className='h-8 max-lg:w-10 max-lg:h-10'
                   />
                 </Link>
@@ -49,7 +49,7 @@ export default function Footer({ dict }: DictionaryData) {
                     alt='linkedin icon'
                     width={32}
                     height={32}
-                    priority
+                    loading='lazy'
                     className='h-8 max-lg:w-10 max-lg:h-10'
                   />
                 </Link>
@@ -68,7 +68,7 @@ export default function Footer({ dict }: DictionaryData) {
                     alt='location icon'
                     width={30}
                     height={34}
-                    priority
+                    loading='lazy'
                     className='h-[34px] max-lg:w-10 max-lg:h-10'
                   />
                 </div>
@@ -84,7 +84,7 @@ export default function Footer({ dict }: DictionaryData) {
                     alt='phone icon'
                     width={30}
                     height={34}
-                    priority
+                    loading='lazy'
                     className='h-[34px] max-lg:w-10 max-lg:h-10'
                   />
                 </div>

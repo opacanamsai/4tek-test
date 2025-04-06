@@ -27,7 +27,7 @@ export default function Header({
               alt='logo'
               width={109}
               height={64}
-              priority
+              loading='lazy'
               className='max-md:w-[68px] max-md:h-[40px]'
             />
           </Link>
@@ -51,7 +51,7 @@ export default function Header({
                 alt='hamburger icon'
                 width={40}
                 height={40}
-                priority
+                loading='lazy'
                 className='cursor-pointer max-md:!w-[40px] max-md:!h-[40px]'
               />
             </SheetTrigger>

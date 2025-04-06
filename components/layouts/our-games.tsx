@@ -52,7 +52,7 @@ export default function OurGames({ dict }: DictionaryData) {
             </Fragment>
           ))}
         </div>
-        <div className='col-start-3 space-y-10 max-lg:col-start-1 max-lg:space-y-5'>
+        <div className='col-start-3 space-y-10 max-lg:col-start-1 max-lg:space-y-5 max-lg:mt-[-20px]'>
           {gameData.items.slice(6, 9).map(({ id }) => (
             <Fragment key={id}>
               <GameItem
@@ -64,7 +64,7 @@ export default function OurGames({ dict }: DictionaryData) {
             </Fragment>
           ))}
         </div>
-        <div className='col-start-4 space-y-10 mt-20 max-lg:col-start-2 max-lg:mt-5 max-lg:space-y-5'>
+        <div className='col-start-4 space-y-10 mt-20 max-lg:col-start-2 max-lg:mt-0 max-lg:space-y-5'>
           {gameData.items.slice(9, 12).map(({ id }) => (
             <Fragment key={id}>
               <GameItem

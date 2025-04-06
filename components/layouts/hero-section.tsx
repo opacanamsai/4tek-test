@@ -116,6 +116,8 @@ export default function HeroSection({ dict }: DictionaryData) {
           width={0}
           height={0}
           className='w-full h-full max-md:hidden'
+          loading='lazy'
+          quality={50}
         />
         <Image
           src={FairyImageMb}
@@ -123,6 +125,8 @@ export default function HeroSection({ dict }: DictionaryData) {
           width={342}
           height={258}
           className='w-full h-full max-md:block hidden'
+          loading='lazy'
+          quality={50}
         />
       </div>
     </section>
